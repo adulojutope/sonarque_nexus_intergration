@@ -1,0 +1,19 @@
+
+# Terraform provider downloads and local data
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Secrets and credentials
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Other temporary files
+*.log
+.DS_Store
